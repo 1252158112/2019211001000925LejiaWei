@@ -8,6 +8,7 @@ import java.io.IOException;
 public class YourNameFilter implements Filter {
     public void destroy() {
         System.out.println("de");
+        System.out.println("ol");
     }
 
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
